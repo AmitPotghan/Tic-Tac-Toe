@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@900&family=Poppins:wght@300&family=Rubik+Doodle+Shadow&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color:#FF9F1C
+}
+.name{
+    height:10vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight:900;
+    font-size:7vh;
+    padding:3px;
+    font-family: 'Rubik Doodle Shadow';
+}
+.game{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.container{
+    height:65vmin;
+    width:65vmin;
+    display: flex;
+    flex-wrap:wrap;
+    gap:.0.6rem;
+    justify-content:center;
+    align-items:center;
+}
+.box{
+    height:20vmin;
+    width:20vmin;
+    border-radius:0.65rem;
+    border:none;
+    color:#F71735;
+    font-size:3.5rem;
+    background-color: #011423;
+}
+.reset-cont{
+    display:flex;
+    justify-content:center;
+    align-items:center
+}
+#resetGame{
+    padding:0.4rem;
+    border-radius:0.3rem;
+    border:1px solid #011627;
+    border:none;
+    color:#FDFFFC;
+    margin:0.5rem;
+    background-color:#9C8185
+}
+.msgContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    padding:5px;
+    margin:5px;
+    gap:0.7rem;
+}
+#msg{
+    font-size: 900;
+}
+.hide{
+    display:none;
+}
+.newGame{
+    padding:0.4rem;
+    border-radius:0.3rem;
+    border:1px solid #011627;
+    border:none;
+    color:#FDFFFC;
+    margin:0.5rem;
+    background-color:#9C8185
+}
